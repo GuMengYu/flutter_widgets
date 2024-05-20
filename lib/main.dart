@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets/widgets/balance_widget.dart';
 import 'package:flutter_widgets/widgets/dream_come_true_widget.dart';
 import 'package:flutter_widgets/widgets/expenses_widget.dart';
+import 'package:flutter_widgets/widgets/ferrari_widget.dart';
+import 'package:flutter_widgets/widgets/green_forest_widget.dart';
 import 'package:flutter_widgets/widgets/income_widget.dart';
 import 'package:flutter_widgets/widgets/repetition_widget.dart';
 import 'package:flutter_widgets/widgets/subscription_widget.dart';
@@ -100,6 +102,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisSpacing: 12,
           crossAxisSpacing: 12,
           children: [
+            FerrariWidget(),
+            GreenForestWidget(),
             BalanceWidget(),
             RepetitionWidget(),
             ExpensesWidget(),
